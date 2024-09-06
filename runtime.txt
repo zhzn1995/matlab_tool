@@ -1,0 +1,1771 @@
+
+'''
+runtime  <====>  RDFKQOXPKQ
+VERBOSE  <====>  mboalpttoacoaooabpobm
+infile  <====>  mapdembocpopcbombmoac
+header  <====>  mbtttbcobadtaatcladde
+body  <====>  mldmmotpecaomcalbalta
+magicByte  <====>  moetombldomoecbotbpat
+knownOperators  <====>  mabcbmtoetaotaoaetaco
+lookUpTable  <====>  maopcattacdmecttoomtp
+len  <====>  mceldldmdpleaotmcpcpo
+v3  <====>  mldmbapomlatedmmlabdd
+v7  <====>  mbombompootoemobblacb
+v2  <====>  mbcbdcadettcdetlabmpc
+v4  <====>  mblodemacloeleddpcdap
+serializedFile  <====>  mocaolacaodmlmddtttat
+outfile  <====>  motobotadaopcacodmaab
+length  <====>  mbeeommatccomobtdoato
+counter  <====>  mecaetptleetotabaoetl
+nameTable  <====>  mltombdtooopldeocbamb
+totalEntries  <====>  mmocomdadpddooeapamco
+bytesNew  <====>  mcmootllbbpdmodpootpa
+byte  <====>  mopltboecteeaaadmmtol
+operatorByte  <====>  mpbbdmcpaaoaomootdmlt
+parser  <====>  mtmdoaledmetocadtebod
+args  <====>  moacdctmcocmoabtttpml
+splitpath  <====>  momalcmttopolalamtmoa
+outfilename  <====>  moooopomdtdbobmbboeod
+realOutFileName  <====>  mpadbpeeatdtlpbdlaalp
+serfileHdl  <====>  momctoboottapmemedmta
+formatter  <====>  mcbmlamaledeclaepcdab
+getSerializedFile  <====>  OOOO00O0OO0000OO0O0000
+decrypt  <====>  O00OOOOOOOOOOO0OOO00OO
+getMagic  <====>  OO000O0OO0000OO00OO0OO
+deSerialize  <====>  OO0O0OO0OOOOO0O00O0OOO
+isNameRef  <====>  O0O0000000000O0000O00O
+nameRefToIndex  <====>  OOOOO0OO0O0O00OO00O0OO
+translateOp  <====>  OOOOO00O0OOO000OOO0O0O
+   <encoding name="Big5" jvm_encoding="MS950">
+            <encoding_alias name="950"/>
+        </encoding>
+        <encoding name="Big5-HKSCS" compat="Big5">
+            <encoding_alias name="Big5HKSCS"/>
+        </encoding>
+        <encoding name="CP1131">
+            <encoding_alias name="ibm-1131_P100-1997"/>
+        </encoding>
+        <encoding name="CP949">
+            <encoding_alias name="ibm-949_P110-1999"/>
+        </encoding>
+        <encoding name="EUC-JP">
+            <encoding_alias name="eucjp"/>
+        </encoding>
+        <encoding name="EUC-KR" compat="windows-949">
+            <encoding_alias name="euckr"/>
+        </encoding>
+        <encoding name="EUC-TW">
+            <encoding_alias name="euc-tw-2014"/>
+            <encoding_alias name="euctw"/>
+            <encoding_alias name="ibm-964_P110-1999"/>
+        </encoding>
+        <encoding name="GB18030"/>
+        <encoding name="GB2312" compat="GBK">
+            <encoding_alias name="EUC-CN"/>
+            <encoding_alias name="euccn"/>
+        </encoding>
+        <encoding name="GBK">
+            <encoding_alias name="936"/>
+        </encoding>
+        <encoding name="IBM866">
+            <encoding_alias name="CP866"/>
+        </encoding>
+        <encoding name="ISCII-DEV">
+            <encoding_alias name="windows-57002"/>
+        </encoding>
+        <encoding name="ISO-8859-1" compat="windows-1252">
+            <encoding_alias name="ISO8859-1"/>
+            <encoding_alias name="ISO88591"/>
+        </encoding>
+        <encoding name="ISO-8859-10" compat="windows-1257">
+            <encoding_alias name="ISO8859-10"/>
+            <encoding_alias name="ISO885910"/>
+        </encoding>
+        <encoding name="ISO-8859-11" compat="windows-874">
+            <encoding_alias name="ISO8859-11"/>
+            <encoding_alias name="ISO885911"/>
+            <encoding_alias name="iso-8859_11-2001"/>
+        </encoding>
+        <encoding name="ISO-8859-13" compat="windows-1257">
+            <encoding_alias name="ISO8859-13"/>
+            <encoding_alias name="ISO885913"/>
+        </encoding>
+        <encoding name="ISO-8859-14" compat="windows-1252">
+            <encoding_alias name="ISO8859-14"/>
+            <encoding_alias name="ISO885914"/>
+        </encoding>
+        <encoding name="ISO-8859-15" compat="windows-1252">
+            <encoding_alias name="ISO8859-15"/>
+            <encoding_alias name="ISO885915"/>
+        </encoding>
+        <encoding name="ISO-8859-2" compat="windows-1250">
+            <encoding_alias name="ISO8859-2"/>
+            <encoding_alias name="ISO88592"/>
+        </encoding>
+        <encoding name="ISO-8859-3" compat="windows-1254">
+            <encoding_alias name="ISO8859-3"/>
+            <encoding_alias name="ISO88593"/>
+        </encoding>
+        <encoding name="ISO-8859-4" compat="windows-1257">
+            <encoding_alias name="ISO8859-4"/>
+            <encoding_alias name="ISO88594"/>
+        </encoding>
+        <encoding name="ISO-8859-5" compat="windows-1251">
+            <encoding_alias name="ISO8859-5"/>
+            <encoding_alias name="ISO88595"/>
+        </encoding>
+        <encoding name="ISO-8859-6" compat="windows-1256">
+            <encoding_alias name="ISO8859-6"/>
+            <encoding_alias name="ISO88596"/>
+        </encoding>
+        <encoding name="ISO-8859-7" compat="windows-1253">
+            <encoding_alias name="ISO8859-7"/>
+            <encoding_alias name="ISO88597"/>
+        </encoding>
+        <encoding name="ISO-8859-8" compat="windows-1255">
+            <encoding_alias name="ISO8859-8"/>
+            <encoding_alias name="ISO88598"/>
+        </encoding>
+        <encoding name="ISO-8859-9" compat="windows-1254">
+            <encoding_alias name="ISO8859-9"/>
+            <encoding_alias name="ISO88599"/>
+        </encoding>
+        <encoding name="KOI8-R" compat="windows-1251">
+            <encoding_alias name="koi8r"/>
+        </encoding>
+        <encoding name="KOI8-U">
+            <encoding_alias name="koi8u"/>
+        </encoding>
+        <encoding name="Shift_JIS" jvm_encoding="MS932">
+            <encoding_alias name="932"/>
+            <encoding_alias name="SJIS"/>
+            <encoding_alias name="Shift-JIS"/>
+            <encoding_alias name="Windows-31J"/>
+            <encoding_alias name="Windows31J"/>
+        </encoding>
+        <encoding name="US-ASCII">
+            <encoding_alias name="ANSI_X3.4-1968"/>
+        </encoding>
+        <encoding name="UTF-8">
+            <encoding_alias name="utf8"/>
+        </encoding>
+        <encoding name="windows-1250" jvm_encoding="Cp1250">
+            <encoding_alias name="1250"/>
+        </encoding>
+        <encoding name="windows-1251" jvm_encoding="Cp1251">
+            <encoding_alias name="1251"/>
+        </encoding>
+        <encoding name="windows-1252" jvm_encoding="Cp1252">
+            <encoding_alias name="1252"/>
+        </encoding>
+        <encoding name="windows-1253" jvm_encoding="Cp1253">
+            <encoding_alias name="1253"/>
+        </encoding>
+        <encoding name="windows-1254" jvm_encoding="Cp1254">
+            <encoding_alias name="1254"/>
+        </encoding>
+        <encoding name="windows-1255" jvm_encoding="Cp1255">
+            <encoding_alias name="1255"/>
+        </encoding>
+        <encoding name="windows-1256" jvm_encoding="Cp1256">
+            <encoding_alias name="1256"/>
+        </encoding>
+        <encoding name="windows-1257" jvm_encoding="Cp1257">
+            <encoding_alias name="1257"/>
+        </encoding>
+        <encoding name="windows-1258" jvm_encoding="Cp1258">
+            <encoding_alias name="1258"/>
+        </encoding>
+        <encoding name="windows-874" jvm_encoding="MS874">
+            <encoding_alias name="874"/>
+            <encoding_alias name="TIS620"/>
+        </encoding>
+        <encoding name="windows-949" jvm_encoding="MS949">
+            <encoding_alias name="949"/>
+            <encoding_alias name="KSC_5601"/>
+        </encoding>
+    </codeset>
+    <!-- Locale entries -->
+    <locale name="af_ZA" encoding="UTF-8" xpg_name="af_ZA.UTF-8">
+        <alias name="af"/>
+    </locale>
+    <locale name="am_ET" encoding="UTF-8" xpg_name="am_ET.UTF-8"/>
+    <locale name="ar_EG" encoding="UTF-8">
+        <alias name="ar"/>
+    </locale>
+    <locale name="be_BY" encoding="UTF-8" xpg_name="be_BY.UTF-8"/>
+    <locale name="bg_BG" encoding="UTF-8" xpg_name="bg_BG.UTF-8"/>
+    <locale name="br_FR" encoding="UTF-8">
+        <alias name="br"/>
+    </locale>
+    <locale name="ca_ES" encoding="UTF-8" xpg_name="ca_ES.UTF-8">
+        <alias name="ca"/>
+    </locale>
+    <locale name="cs_CZ" encoding="UTF-8" xpg_name="cs_CZ.UTF-8">
+        <alias name="cz"/>
+        <alias name="cz_CZ"/>
+    </locale>
+    <locale name="da_DK" encoding="UTF-8" xpg_name="da_DK.UTF-8">
+        <alias name="da"/>
+    </locale>
+    <locale name="de_AT" encoding="UTF-8" xpg_name="de_AT.UTF-8"/>
+    <locale name="de_CH" encoding="UTF-8" xpg_name="de_CH.UTF-8"/>
+    <locale name="de_DE" encoding="UTF-8" xpg_name="de_DE.UTF-8"/>
+    <locale name="el_GR" encoding="UTF-8" xpg_name="el_GR.UTF-8">
+        <alias name="el"/>
+    </locale>
+    <locale name="en_029" encoding="UTF-8">
+        <alias name="en_CB"/>
+    </locale>
+    <locale name="en_AU" encoding="UTF-8" xpg_name="en_AU.UTF-8"/>
+    <locale name="en_CA" encoding="UTF-8" xpg_name="en_CA.UTF-8"/>
+    <locale name="en_GB" encoding="UTF-8" xpg_name="en_GB.UTF-8">
+        <alias name="en_UK"/>
+    </locale>
+    <locale name="en_IE" encoding="UTF-8" xpg_name="en_IE.UTF-8"/>
+    <locale name="en_NZ" encoding="UTF-8" xpg_name="en_NZ.UTF-8"/>
+    <locale name="en_US" encoding="UTF-8" xpg_name="en_US.UTF-8">
+        <alias name="en"/>
+    </locale>
+    <locale name="en_US_POSIX" encoding="US-ASCII" xpg_name="C">
+        <alias name="C"/>
+        <alias name="POSIX"/>
+    </locale>
+    <locale name="es_ES" encoding="UTF-8" xpg_name="es_ES.UTF-8">
+        <alias name="es-ES_tradnl"/>
+    </locale>
+    <locale name="et_EE" encoding="UTF-8" xpg_name="et_EE.UTF-8"/>
+    <locale name="eu_ES" encoding="UTF-8" xpg_name="eu_ES.UTF-8">
+        <alias name="eu"/>
+    </locale>
+    <locale name="fa_IR" encoding="UTF-8">
+        <alias name="fa"/>
+    </locale>
+    <locale name="fi_FI" encoding="UTF-8" xpg_name="fi_FI.UTF-8"/>
+    <locale name="fr_CA" encoding="UTF-8" xpg_name="fr_CA.UTF-8"/>
+    <locale name="fr_CH" encoding="UTF-8" xpg_name="fr_CH.UTF-8"/>
+    <locale name="fr_FR" encoding="UTF-8" xpg_name="fr_FR.UTF-8"/>
+    <locale name="ga_IE" encoding="UTF-8">
+        <alias name="ga"/>
+    </locale>
+    <locale name="gv_GB" encoding="UTF-8">
+        <alias name="gv"/>
+    </locale>
+    <locale name="ha-Latn_NG" encoding="UTF-8">
+        <alias name="ha_NG"/>
+    </locale>
+    <locale name="he_IL" encoding="UTF-8" xpg_name="he_IL.UTF-8">
+        <alias name="iw"/>
+        <alias name="iw_IL"/>
+    </locale>
+    <locale name="hi_IN" encoding="UTF-8">
+        <alias name="hi"/>
+    </locale>
+    <locale name="hr_HR" encoding="UTF-8" xpg_name="hr_HR.UTF-8">
+        <alias name="sh_HR"/>
+    </locale>
+    <locale name="hu_HU" encoding="UTF-8" xpg_name="hu_HU.UTF-8"/>
+    <locale name="hy_AM" encoding="UTF-8" xpg_name="hy_AM.UTF-8">
+        <alias name="hy"/>
+        <alias name="hy_AM_REVISED"/>
+    </locale>
+    <locale name="id_ID" encoding="UTF-8">
+        <alias name="in"/>
+        <alias name="in_ID"/>
+    </locale>
+    <locale name="is_IS" encoding="UTF-8" xpg_name="is_IS.UTF-8"/>
+    <locale name="it_CH" encoding="UTF-8" xpg_name="it_CH.UTF-8"/>
+    <locale name="it_IT" encoding="UTF-8" xpg_name="it_IT.UTF-8"/>
+    <locale name="ja_JP" encoding="UTF-8" xpg_name="ja_JP.SJIS"/>
+    <locale name="kk_KZ" encoding="UTF-8" xpg_name="kk_KZ.UTF-8">
+        <alias name="kk"/>
+    </locale>
+    <locale name="kl_GL" encoding="UTF-8">
+        <alias name="kl"/>
+    </locale>
+    <locale name="ko_KR" encoding="UTF-8" xpg_name="ko_KR.UTF-8">
+        <alias name="ko"/>
+    </locale>
+    <locale name="lt_LT" encoding="UTF-8" xpg_name="lt_LT.UTF-8"/>
+    <locale name="ms_MY" encoding="UTF-8">
+        <alias name="ms"/>
+    </locale>
+    <locale name="nb_NO" encoding="UTF-8">
+        <alias name="nb"/>
+    </locale>
+    <locale name="nl_BE" encoding="UTF-8" xpg_name="nl_BE.UTF-8"/>
+    <locale name="nl_NL" encoding="UTF-8" xpg_name="nl_NL.UTF-8"/>
+    <locale name="no_NO" encoding="UTF-8" xpg_name="no_NO.UTF-8"/>
+    <locale name="ny_NO" encoding="UTF-8">
+        <alias name="ny"/>
+    </locale>
+    <locale name="pa_IN" encoding="UTF-8">
+        <alias name="pa"/>
+    </locale>
+    <locale name="pl_PL" encoding="UTF-8" xpg_name="pl_PL.UTF-8"/>
+    <locale name="pt_BR" encoding="UTF-8" xpg_name="pt_BR.UTF-8"/>
+    <locale name="pt_PT" encoding="UTF-8" xpg_name="pt_PT.UTF-8"/>
+    <locale name="sl_SI" encoding="UTF-8">
+        <alias name="sl"/>
+    </locale>
+    <locale name="sq_AL" encoding="UTF-8">
+        <alias name="sq"/>
+    </locale>
+    <locale name="sr-Cyrl_BA" encoding="UTF-8">
+        <alias name="sr-Cyrl"/>
+    </locale>
+    <locale name="sr-Latn_BA" encoding="windows-1250">
+        <alias name="sr-Latn"/>
+    </locale>
+    <locale name="ss_ZA" encoding="UTF-8">
+        <alias name="ss"/>
+    </locale>
+    <locale name="st_ZA" encoding="UTF-8">
+        <alias name="st"/>
+    </locale>
+    <locale name="sv_SE" encoding="UTF-8" xpg_name="sv_SE.UTF-8">
+        <alias name="sv"/>
+    </locale>
+    <locale name="sw_KE" encoding="UTF-8">
+        <alias name="sw"/>
+    </locale>
+    <locale name="ta_IN" encoding="UTF-8">
+        <alias name="ta"/>
+    </locale>
+    <locale name="tk_TM" encoding="UTF-8">
+        <alias name="tk"/>
+    </locale>
+ <file timestamp="1521048366" component="coder">CMatrixMath.h</file>
+    <file timestamp="1521048366" component="coder">CRL_Multiplication.c</file>
+    <file timestamp="1521048366" component="coder">CRL_Multiplication.h</file>
+    <file timestamp="1521048366" component="coder">MatrixMath.c</file>
+    <file timestamp="1521048366" component="coder">MatrixMath.h</file>
+    <file timestamp="1521048366" component="coder">MyMath.c</file>
+    <file timestamp="1521048366" component="coder">MyMath.h</file>
+    <file timestamp="1521048366" component="coder">addsub_two_int16.m</file>
+    <file timestamp="1521048366" component="coder">coder_replace_fcn.m</file>
+    <file timestamp="1521048366" component="coder">crl_table_addsub.m</file>
+    <file timestamp="1521048366" component="coder">crl_table_blas.m</file>
+    <file timestamp="1521048366" component="coder">crl_table_coder_replace.m</file>
+    <file timestamp="1521048366" component="coder">crl_table_column_major_op.m</file>
+    <file timestamp="1521048366" component="coder">crl_table_functions.m</file>
+    <file timestamp="1521048366" component="coder">crl_table_matops.m</file>
+    <file timestamp="1521048366" component="coder">crl_table_row_major_op.m</file>
+    <file timestamp="1521048366" component="coder">myRtwTargetInfoCRL.txt</file>
+    <file timestamp="1521048366" component="coder">replace_math_fcns.m</file>
+    <file timestamp="1521048366" component="coder">replace_matrix_ops.m</file>
+    <file timestamp="1521048366" component="coder">replace_matrix_ops_blas.m</file>
+    <file timestamp="1521048366" component="coder">replace_mixed_row_column_ops.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingPARFORToSpeedUpAnImageContrastEnhancementAlgorithmExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex68471184</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519762573" component="coder">LowContrast.jpg</file>
+    <file timestamp="1519762573" component="coder">histequalize.m</file>
+  </demoitem>
+  <demoitem>
+    <source>GeneralRelativityMLCoderExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex73274676</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519747942" component="coder">gr_acceleration.m</file>
+    <file timestamp="1519747942" component="coder">gr_mercury_precession.m</file>
+    <file timestamp="1519747942" component="coder">gr_raytrace.m</file>
+    <file timestamp="1519747942" component="coder">gr_raytrace_image.m</file>
+    <file timestamp="1519747942" component="coder">gr_trajectory.m</file>
+    <file timestamp="1519747942" component="coder">mall.jpg</file>
+  </demoitem>
+  <demoitem>
+    <source>IntegrateExternalCodeThatUsesPointersStructsArraysMExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex75966190</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1531506334">arrayCode.c</file>
+    <file component="coder" timestamp="1531506334">arrayCode.h</file>
+    <file component="coder" timestamp="1531506334">callExtCode.m</file>
+    <file component="coder" timestamp="1531506334">extSum.m</file>
+    <file component="coder" timestamp="1531254224">makeStruct.m</file>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyConfigurationParametersForMEXFunctionGenerationExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex76802520</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1487099338" component="coder">myadd.m</file>
+  </demoitem>
+  <demoitem>
+    <source>PassDataByReferenceExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex78056514</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1505320033" component="coder">adderRef.m</file>
+    <file timestamp="1505320033" component="coder">cAdd.c</file>
+    <file timestamp="1505320033" component="coder">cAdd.h</file>
+  </demoitem>
+  <demoitem>
+    <source>NameTheCStructureTypeToUseWithAGlobalStructureVariableExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex78873570</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1512417823" component="coder">getmyfield.m</file>
+    <file timestamp="1512488832" component="coder">struct_prop_dialog.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ReplacingWithImplementationsThatRequireDataAlignmentExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79012474</metadata>
+    <sandboxPublished/>
+    <product>ecoder</product>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences.m</file>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences_da16.m</file>
+    <file timestamp="1521059291" component="coder">crl_table_simd.m</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.h</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.h</file>
+    <file timestamp="1521059291" component="coder">myRtwTargetInfoCRL2.txt</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd.m</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd_da16.m</file>
+    <file timestamp="1521059291" component="coder">sum_of_square_differences.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseStringInputWithGeneratedEmxArrayCodeExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81416943</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1542318673">replaceCats.m</file>
+    <file component="coder" timestamp="1542833411">main_replaceCats.c</file>
+    <file component="coder" timestamp="1542751806">main_replaceCats.h</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingDynamicMemoryAllocationForAnAtomsSimulationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83760050</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519761666" component="coder">run_atoms.m</file>
+    <file timestamp="1519761666" component="coder">run_atoms_main.c</file>
+  </demoitem>
+  <demoitem>
+    <source>AcceleratingSimulationOfBouncingBallsMFileExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex84123910</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1519746396">draw_balls.m</file>
+    <file component="coder" timestamp="1519746396">initialize_balls.m</file>
+    <file component="coder" timestamp="1519746396">is_outside.m</file>
+    <file component="coder" timestamp="1519746396">refresh_image.m</file>
+    <file component="coder" timestamp="1519746396">run_balls.m</file>
+    <file component="coder" timestamp="1519746396">setup_figure_window.m</file>
+    <file component="coder" timestamp="1519746396">step_function.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HelloWorldMLCoderExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85547058</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519743790" component="coder">hello_world.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NameStructTypeForHeterogeneousCellArrayExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85908367</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1465502529" component="coder">mycell.m</file>
+    <file timestamp="1465502529" component="coder">mycell1.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ReverberationUsingMATLABClassesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89191984</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519749676" component="coder">Delay.m</file>
+    <file timestamp="1519749676" component="coder">Reverb.m</file>
+    <file timestamp="1519749676" component="coder">coderdemo_reverb_diagram.png</file>
+    <file timestamp="1519749676" component="coder">do_reverb.m</file>
+    <file timestamp="1519749676" component="coder">get_prime.m</file>
+    <file timestamp="1519749676" component="coder">hhreflect.m</file>
+    <file timestamp="1519749676" component="coder">reverb_test.m</file>
+    <file timestamp="1519749676" component="coder">speech_dft.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>InliningBoundaryUserMathWorksFunctionsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex92908225</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1594668865">useBessely.m</file>
+  </demoitem>
+  <demoitem>
+    <source>GenerateSourceCodeForASpringMassDamperSystemExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex96243738</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1546988904">springMassEqns.m</file>
+    <file component="coder" timestamp="1546988904">springMassSim.m</file>
+    <file component="coder" timestamp="1546988904">springMassStep.m</file>
+    <file component="coder" timestamp="1546989071">springMassTakeStep.m</file>
+    <file component="coder" timestamp="1547743320">springMass_main.c</file>
+    <file component="coder" timestamp="1546988904">springMass_main.h</file>
+  </demoitem>
+</demos>
+
+'''
+
+import argparse
+import os
+import zlib
+
+VERBOSE=0
+
+
+
+def getSerializedFile(infile):
+	header=infile.read(32)
+	body=bytearray(infile.read())
+	magicByte=getMagic(header)>>12
+	if VERBOSE:
+		print(magicByte)
+	return zlib.decompress(decrypt(body,len(body),magicByte))
+'''
+    <source>ReplacingWithImplementationsThatRequireDataAlignmentExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79012474</metadata>
+    <sandboxPublished/>
+    <product>ecoder</product>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences.m</file>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences_da16.m</file>
+    <file timestamp="1521059291" component="coder">crl_table_simd.m</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.h</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.h</file>
+    <file timestamp="1521059291" component="coder">myRtwTargetInfoCRL2.txt</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd.m</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd_da16.m</file>
+    <file timestamp="1521059291" component="coder">sum_of_square_differences.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseStringInputWithGeneratedEmxArrayCodeExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81416943</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1542318673">replaceCats.m</file>
+    <file component="coder" timestamp="1542833411">main_replaceCats.c</file>
+    <file component="coder" timestamp="1542751806">main_replaceCats.h</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingDynamicMemoryAllocationForAnAtomsSimulationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83760050</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519761666" component="coder">run_atoms.m</file>
+    <file timestamp="1519761666" component="coder">run_atoms_main.c</file>
+  </demoitem>
+  <demoitem>
+    <source>AcceleratingSimulationOfBouncingBallsMFileExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex84123910</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1519746396">draw_balls.m</file>
+    <file component="coder" timestamp="1519746396">initialize_balls.m</file>
+    <file component="coder" timestamp="1519746396">is_outside.m</file>
+    <file component="coder" timestamp="1519746396">refresh_image.m</file>
+    <file component="coder" timestamp="1519746396">run_balls.m</file>
+    <file component="coder" timestamp="1519746396">setup_figure_window.m</file>
+    <file component="coder" timestamp="1519746396">step_function.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HelloWorldMLCoderExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85547058</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519743790" component="coder">hello_world.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NameStructTypeForHeterogeneousCellArrayExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85908367</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1465502529" component="coder">mycell.m</file>
+    <file timestamp="1465502529" component="coder">mycell1.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ReverberationUsingMATLABClassesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89191984</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519749676" component="coder">Delay.m</file>
+    <file timestamp="1519749676" component="coder">Reverb.m</file>
+    <file timestamp="1519749676" component="coder">coderdemo_reverb_diagram.png</file>
+    <file timestamp="1519749676" component="coder">do_reverb.m</file>
+    <file timestamp="1519749676" component="coder">get_prime.m</file>
+    <file timestamp="1519749676" component="coder">hhreflect.m</file>
+    <file timestamp="1519749676" component="coder">reverb_test.m</file>
+    <file timestamp="1519749676" component="coder">speech_dft.mat</file>
+  </demoitem>
+  <demoitem>
+'''
+knownOperators={
+				0x01:'function ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x02:'nested ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x03:'if ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x04:'switch ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x05:'try ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x06:'while ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x07:'for ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x08:'end',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x09:'else ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x0A:'elseif ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x0B:'break',
+				0x0C:'return ',
+# counter  <====>  mecaetptleetotabaoetl
+				0x0D:'parfor ',
+# counter  <====>  mecaetptleetotabaoetl
+				0x0F:'global ',
+				0x10:'persistent ',
+# counter  <====>  mecaetptleetotabaoetl
+				0x14:'catch ',
+				0x15:'continue ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x16:'case ',
+				0x17:'otherwise ',
+# counter  <====>  mecaetptleetotabaoetl
+				0x19:'classdef ',
+				0x1C:'properties ',
+# counter  <====>  mecaetptleetotabaoetl
+				0x1E:'methods ',
+				0x1F:'events ',
+# counter  <====>  mecaetptleetotabaoetl
+				0x20:'enumeration ',
+				0x21:'spmd ',
+# counter  <====>  mecaetptleetotabaoetl
+				0x22:'parsection ',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x23:'section ',
+				40:'id ',
+# counter  <====>  mecaetptleetotabaoetl
+				41:'eend ',
+				42:'int ',
+# counter  <====>  mecaetptleetotabaoetl
+				43:'float ',
+				44:'string ',
+# counter  <====>  mecaetptleetotabaoetl
+				45:'dual ',
+				46:'!',#bang?
+# counter  <====>  mecaetptleetotabaoetl
+				47:'QUEST',
+				0x32:';',  
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x33:',',
+				0x34:'(',
+# counter  <====>  mecaetptleetotabaoetl
+				0x35:')',
+				0x36:'[',
+# counter  <====>  mecaetptleetotabaoetl
+				0x37:']',
+				0x38:'{',
+# counter  <====>  mecaetptleetotabaoetl
+				0x39:'}',
+				58:'FEEND',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x3C:'\'',
+				0x3D:'.\'',
+# counter  <====>  mecaetptleetotabaoetl
+				0x3E:'~',
+				0x3F:'@',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x40:'$',
+				65:'`',
+				66:'``',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x46:'+',
+				0x47:'-',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x48:'*',
+				0x49:'/',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x4A:'\\',
+				0x4B:'^',
+				0x4C:':',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x50:'.',
+				0x51:'.*',
+				0x52:'./',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x53:'.\\',
+				0x54:'.^',
+				0x55:'&',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x56:'|',
+				0x57:'&&',
+				0x58:'||',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x59:'<',
+				0x5A:'>',
+				0x5B:'<=',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x5C:'>=',
+				0x5D:'==',
+				0x5E:'~=',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x5F:'=',
+				96:'CNE',
+				97:'ARROW',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x64:'\n',#EOL
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				101:'\n',#SEOL
+				102:'\n',#CEOL
+				103:'\n',#IEOL
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				105:'%',
+				106:'%{',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				107:'BLKCOM',
+				108:'%}',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				109:'CPAD',
+				110:'PRAGMA',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				0x6F:'...',#DOTDOTDOT
+				0x70:'..',#DOTDOT
+				113:'DEEP_NEST',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				114:'DEEP_STMT',
+				116:'WHITE',
+				118:'NEGERR',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				119:'SEMERR',
+				120:'EOLERR',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				121:'UNTERM',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				122:'BADCHAR',
+				123:'DEEP_PAREN',
+				124:'FP_ERR',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				125:'RES_ERR',
+				126:'DEEP_COM',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				127:'BEGIN_TYPE',
+#    <file timestamp="1465502529" component="coder">mycell.m</file>
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				128:'END_TYPE',
+				129:'STRING_LITERAL',
+				130:'UNTERM_STRING_LITERAL',
+#    <file timestamp="1465502529" component="coder">mycell1.m</file>
+				131:'LAST_TOKEN',
+				}
+'''
+    <source>ReplacingWithImplementationsThatRequireDataAlignmentExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79012474</metadata>
+    <sandboxPublished/>
+    <product>ecoder</product>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences.m</file>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences_da16.m</file>
+    <file timestamp="1521059291" component="coder">crl_table_simd.m</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.h</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.h</file>
+    <file timestamp="1521059291" component="coder">myRtwTargetInfoCRL2.txt</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd.m</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd_da16.m</file>
+    <file timestamp="1521059291" component="coder">sum_of_square_differences.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseStringInputWithGeneratedEmxArrayCodeExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81416943</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1542318673">replaceCats.m</file>
+    <file component="coder" timestamp="1542833411">main_replaceCats.c</file>
+    <file component="coder" timestamp="1542751806">main_replaceCats.h</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingDynamicMemoryAllocationForAnAtomsSimulationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83760050</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519761666" component="coder">run_atoms.m</file>
+    <file timestamp="1519761666" component="coder">run_atoms_main.c</file>
+  </demoitem>
+  <demoitem>
+    <source>AcceleratingSimulationOfBouncingBallsMFileExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex84123910</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1519746396">draw_balls.m</file>
+    <file component="coder" timestamp="1519746396">initialize_balls.m</file>
+    <file component="coder" timestamp="1519746396">is_outside.m</file>
+    <file component="coder" timestamp="1519746396">refresh_image.m</file>
+    <file component="coder" timestamp="1519746396">run_balls.m</file>
+    <file component="coder" timestamp="1519746396">setup_figure_window.m</file>
+    <file component="coder" timestamp="1519746396">step_function.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HelloWorldMLCoderExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85547058</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519743790" component="coder">hello_world.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NameStructTypeForHeterogeneousCellArrayExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85908367</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1465502529" component="coder">mycell.m</file>
+    <file timestamp="1465502529" component="coder">mycell1.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ReverberationUsingMATLABClassesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89191984</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519749676" component="coder">Delay.m</file>
+    <file timestamp="1519749676" component="coder">Reverb.m</file>
+    <file timestamp="1519749676" component="coder">coderdemo_reverb_diagram.png</file>
+    <file timestamp="1519749676" component="coder">do_reverb.m</file>
+    <file timestamp="1519749676" component="coder">get_prime.m</file>
+    <file timestamp="1519749676" component="coder">hhreflect.m</file>
+    <file timestamp="1519749676" component="coder">reverb_test.m</file>
+    <file timestamp="1519749676" component="coder">speech_dft.mat</file>
+  </demoitem>
+  <demoitem>
+'''
+lookUpTable=[0x87,0x06,0x0F,0x05,0xB0,0x3A,0xF6,0xC3,0x9C,0x2A,0x02,0x2E,0x8C,0xAA,0x6D,0x03,0xE2,0x8A,0xED,0x32,0x76,0x18,0x57,0xF5,0xF3,0xE7,0x6F,0xC6,0xC0,0xD7,0xF0,0x6C,0x59,0xBA,0x08,0xBE,0xBE,0x32,0xBB,0x0C,0xF9,0x76,0x1E,0x2E,0x29,0x50,0x09,0x5B,0x53,0x37,0xB8,0xD7,0xEA,0xC2,0x49,0xB9,0x01,0x71,0x2B,0x00,0x59,0x6F,0xBF,0x10,0x64,0x55,0x56,0x5A,0x72,0xF6,0x31,0xCF,0x69,0x48,0xB6,0x49,0x91,0xAE,0xB5,0x30,0x72,0x4C,0xD8,0x33,0x7D,0xB8,0xB5,0xE4,0xD8,0x0B,0xEF,0x97,0x99,0x39,0xA5,0x58,0x11,0x42,0xD5,0xA2,0xF3,0x16,0x0D,0x04,0xAB,0xF2,0xD0,0x8E,0x92,0x36,0x12,0xA1,0xFD,0x41,0xAD,0x7C,0xE5,0x2E,0xFD,0x47,0x75,0x66,0xB5,0xD5,0x84,0x48,0xBC,0x01,0x95,0x69,0xF3,0x8B,0x11,0x91,0xB7,0x83,0x11,0xF3,0x29,0x85,0x77,0xF4,0xE0,0x3E,0x87,0xA9,0x0E,0x79,0x04,0xDB,0x99,0x4B,0x37,0xCC,0xD1,0x2B,0xE1,0x63,0x17,0x37,0xC3,0x0D,0x55,0x58,0x30,0x43,0xF0,0xD9,0x0A,0xB4,0x20,0x12,0x16,0x45,0x0D,0xB0,0x1B,0x06,0x3A,0x13,0x0C,0x25,0x4C,0x92,0x70,0xB4,0xCC,0x40,0x7F,0x5B,0x90,0x6D,0x7E,0x1B,0x7E,0x61,0xD9,0xFC,0x82,0x0A,0x11,0x0A,0x46,0x1E,0xF0,0x67,0x56,0x15,0x57,0xB5,0x38,0x6F,0xE9,0x15,0x35,0x36,0x89,0xA1,0xFB,0x6D,0x68,0xF7,0x0D,0x92,0xDD,0x2C,0x42,0x3A,0x35,0x94,0xCC,0x7C,0xFB,0x2D,0x20,0xB3,0xDA,0x6E,0xEF,0x36,0x1A,0xC3,0xC9,0x44,0x70,0x94,0xD5,0x08,0x5E,0xB7,0xAB,0xB8,0xAF,0x2C,0xBD,0x50,0x82,0x25,0x8D,0x8C,0x6F,0xAA,0xD5,0x3D,0x26,0x21,0x9E,0x0F,0x09,0xCF,0x9B,0x05,0x74,0x85,0x6F,0x09,0x5D,0xED,0x6F,0x3B,0xEA,0x32,0xB3,0x3C,0x37,0x93,0xC4,0x61,0x8D,0x30,0x60,0x95,0xF5,0xE6,0xD3,0x4E,0x4D,0xD8,0xD1,0x91,0xA8,0x36,0x9A,0xA8,0x01,0x0C,0x20,0xE1,0xBD,0x8C,0x9E,0xD2,0x28,0x92,0x2A,0x16,0x7F,0x27,0x9E,0x42,0x97,0x89,0x21,0x5D,0x39,0x9C,0x70,0x34,0x70,0x8F,0xF4,0x57,0xEE,0x3E,0x5A,0x4C,0x22,0xB2,0xA5,0x6A,0xF9,0x30,0xF0,0xC5,0x56,0x36,0x68,0xDE,0xFF,0xDE,0xE7,0xA4,0x2E,0xC5,0xBC,0xC2,0x51,0x64,0x88,0x11,0xD9,0x4D,0xD7,0xDB,0x48,0x88,0x86,0x87,0xC2,0xF8,0x5D,0x1A,0x38,0x05,0x83,0x14,0xF7,0xB4,0x43,0xD8,0x44,0x1E,0xEB,0x26,0xA7,0xAF,0x58,0x52,0x1D,0xD6,0xE1,0xE7,0x4D,0xED,0x86,0x2C,0x1B,0x35,0xC8,0x5B,0x7A,0xC3,0x51,0x23,0x38,0x20,0x3A,0x69,0x52,0xC8,0x8C,0x3D,0x08,0xF4,0xB1,0xB8,0x2D,0x07,0x0E,0x38,0xA0,0xA0,0x5E,0x4F,0xB0,0x2A,0x4C,0xE1,0x2E,0x13,0x2E,0x19,0x5D,0x2D,0xFD,0xA1,0xD8,0xBC,0x76,0xF7,0xAD,0x3A,0xCC,0x5B,0xF4,0xB6,0x1E,0xFF,0x11,0x59,0xE7,0xAB,0x1D,0xCA,0xC0,0x33,0xE2,0xF5,0x78,0xCB,0x34,0x0B,0x8D,0x16,0x17,0xFB,0xB0,0xF9,0x39,0x2C,0xE1,0xA9,0x33,0xEA,0x74,0xBB,0x45,0xC0,0x6D,0x3C,0x8A,0x90,0x69,0xBB,0x0D,0x38,0x4C,0x17,0x8E,0x48,0xF4,0x43,0x4C,0x89,0xC7,0x55,0x45,0x3D,0xCF,0xAB,0x85,0xFD,0x37,0x9C,0x90,0xA7,0xB2,0x7C,0xEC,0xEC,0x27,0xFE,0xA3,0xD3,0x19,0x84,0xDE,0x94,0x39,0x29,0x08,0x22,0xF0,0x59,0x1D,0x97,0x6B,0xA7,0x16,0xB5,0x73,0x12,0x5A,0xEA,0x7C,0x17,0x25,0x8B,0x1D,0x60,0x43,0xBC,0x81,0x4A,0xFA,0x8A,0xDB,0x66,0xD6,0xB5,0x69,0xC1,0x71,0xCF,0xAF,0x63,0x58,0xB8,0xD8,0x08,0xAE,0x72,0xE0,0x38,0x1E,0x0A,0x7C,0x3F,0x4C,0x6F,0xF7,0x87,0xC0,0xCB,0xC7,0x64,0x3C,0xD4,0x3C,0xF3,0x2F,0x65,0x70,0xD3,0xF4,0xD6,0x54,0x7B,0x53,0xCF,0xED,0x6C,0x68,0x91,0x51,0x7D,0x27,0xC1,0xC9,0xB6,0x98,0x8F,0x5B,0xA9,0xF2,0x21,0xBB,0xB8,0x34,0xF9,0x15,0xCE,0x26,0xD8,0x4F,0xED,0x3F,0xAB,0x82,0x8E,0x79,0x36,0xE5,0x79,0xAC,0xD5,0x87,0x09,0xCF,0x52,0x35,0x8B,0x66,0x23,0x0D,0x78,0x4F,0xA9,0xA1,0x8D,0xAD,0xE7,0x6E,0xB4,0x6E,0x45,0xFD,0x51,0x6C,0x40,0x0D,0x35,0xC3,0x9C,0xE2,0xC6,0xC8,0x2F,0x7A,0x69,0x92,0xCB,0x2A,0x95,0x06,0x59,0x64,0x11,0xC3,0xBA,0x55,0xD0,0x68,0x81,0x94,0x56,0x77,0x28,0x14,0x75,0x1B,0x73,0x2E,0xD9,0x16,0xF4,0x74,0x8F,0x96,0x32,0x90,0xB4,0x67,0xE2,0x25,0x61,0xD6,0xBF,0x3C,0xF4,0xD2,0x06,0xCD,0x27,0x96,0x47,0x96,0xB4,0xCA,0x96,0x91,0xEF,0x25,0xD6,0xBA,0x14,0xFE,0xD8,0xE7,0xB1,0xF2,0x57,0x5B,0x26,0xBD,0x65,0x16,0xBE,0xF1,0xFA,0xA2,0xEA,0x26,0x51,0x71,0xF4,0xE4,0x3D,0x66,0x2B,0x30,0xA6,0x25,0x79,0xA0,0x87,0x56,0x6E,0x90,0x13,0xEE,0xB4,0xFF,0xF8,0x5A,0x04,0x06,0xAB,0x63,0x66,0xDF,0xBC,0x8F,0x42,0xAD,0xE0,0xC9,0xB8,0x74,0xF0,0x60,0x38,0x4B,0xFD,0x9C,0xF7,0x70,0x7D,0xAC,0xFF,0x3C,0x20,0xDB,0x21,0xDD,0xC8,0xC7,0x0C,0x77,0xD6,0x10,0x91,0xFF,0xDA,0x30,0xF2,0x45,0x4A,0x5C,0x63,0xEE,0xFE,0x24,0x86,0x1A,0x4E,0x5F,0x4B,0x5C,0x3E,0xD1,0xF2,0x84,0x31,0xB5,0x3A,0x82,0x30,0x85,0xAC,0x32,0xFE,0x0D,0x67,0x56,0x38,0x82,0x62,0x18,0x78,0x1B,0x61,0xFD,0x94,0x9F,0xD6,0x7B,0x0E,0x3D,0xF7,0x17,0x51,0x03,0x13,0xEF,0xEC,0xFA,0xFC,0x39,0x74,0x53,0x35,0x08,0x4C,0xA6,0xFD,0x15,0x3E,0x6C,0xF1,0x1D,0xB2,0xB9,0xE0,0x38,0xF2,0xCB,0xF6,0xB5,0xC5,0xC2,0xDF,0xAD,0xC5,0xA7,0x15,0x37,0xEB,0x26,0xFB,0xBB,0x70,0x26,0xC6,0x8C,0x82,0x37,0x58,0xE4,0xCB,0xF0,0xB3,0x2F,0x61,0x87,0xFE,0xD7,0x7F,0xD4,0xCF,0x55,0x49,0x9D,0x33,0x6C,0x81,0x62,0xA0,0xB5,0x48,0x9C,0xDC,0xCC,0x1F,0xAE,0xC4,0x6B,0x5C,0x93,0x92,0xFA,0x92,0xF8,0x3F,0xBA,0x1E,0xD3,0x4A,0x86,0xAA,0xF2,0xDD,0x56,0xD1,0xC9,0xB2,0x3F,0x50,0x88,0x85,0x08,0xDB,0x77,0x0A,0x89,0xCF,0xD7,0x19,0x95,0x88,0x0A,0xE8,0x20,0x53,0x93,0xEB,0x86,0x64,0x77,0xF0,0x11,0x97,0x47,0x5F,0x37,0xA4,0x96,0xFE,0x75,0x51,0x72,0xED,0x4A,0x0B,0x9B,0x94,0x3F,0xF0,0x3C,0x7C,0x8A,0x8F,0xDE,0x5E,0x67,0xBD,0x54,0x75,0x77,0xE2,0x08,0xF3,0x40,0x55,0xA1,0xBE,0x14,0x83,0xFC,0x0A,0xAF,0xCD,0x2F,0xEE,0xFB,0xC5,0xC7,0x04,0xA0,0x05,0x34,0x63,0x93,0x99,0x20,0x22,0x2B,0x27,0x4F,0x83,0x77,0x85,0x08,0x33,0x10]
+'''
+    <source>ReplacingWithImplementationsThatRequireDataAlignmentExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79012474</metadata>
+    <sandboxPublished/>
+    <product>ecoder</product>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences.m</file>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences_da16.m</file>
+    <file timestamp="1521059291" component="coder">crl_table_simd.m</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.h</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.h</file>
+    <file timestamp="1521059291" component="coder">myRtwTargetInfoCRL2.txt</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd.m</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd_da16.m</file>
+    <file timestamp="1521059291" component="coder">sum_of_square_differences.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseStringInputWithGeneratedEmxArrayCodeExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81416943</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1542318673">replaceCats.m</file>
+    <file component="coder" timestamp="1542833411">main_replaceCats.c</file>
+    <file component="coder" timestamp="1542751806">main_replaceCats.h</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingDynamicMemoryAllocationForAnAtomsSimulationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83760050</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519761666" component="coder">run_atoms.m</file>
+    <file timestamp="1519761666" component="coder">run_atoms_main.c</file>
+  </demoitem>
+  <demoitem>
+    <source>AcceleratingSimulationOfBouncingBallsMFileExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex84123910</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1519746396">draw_balls.m</file>
+    <file component="coder" timestamp="1519746396">initialize_balls.m</file>
+    <file component="coder" timestamp="1519746396">is_outside.m</file>
+    <file component="coder" timestamp="1519746396">refresh_image.m</file>
+    <file component="coder" timestamp="1519746396">run_balls.m</file>
+    <file component="coder" timestamp="1519746396">setup_figure_window.m</file>
+    <file component="coder" timestamp="1519746396">step_function.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HelloWorldMLCoderExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85547058</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519743790" component="coder">hello_world.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NameStructTypeForHeterogeneousCellArrayExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85908367</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1465502529" component="coder">mycell.m</file>
+    <file timestamp="1465502529" component="coder">mycell1.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ReverberationUsingMATLABClassesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89191984</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519749676" component="coder">Delay.m</file>
+    <file timestamp="1519749676" component="coder">Reverb.m</file>
+    <file timestamp="1519749676" component="coder">coderdemo_reverb_diagram.png</file>
+    <file timestamp="1519749676" component="coder">do_reverb.m</file>
+    <file timestamp="1519749676" component="coder">get_prime.m</file>
+    <file timestamp="1519749676" component="coder">hhreflect.m</file>
+    <file timestamp="1519749676" component="coder">reverb_test.m</file>
+    <file timestamp="1519749676" component="coder">speech_dft.mat</file>
+  </demoitem>
+  <demoitem>
+'''
+def decrypt(body,len,magicByte):
+	v3=0
+	v7=len>>2
+	if(v7):
+		while 1:
+			body[4*v3+0]^=lookUpTable[(4*(v3+magicByte))%1024+0]
+			body[4*v3+1]^=lookUpTable[(4*(v3+magicByte))%1024+1]
+			body[4*v3+2]^=lookUpTable[(4*(v3+magicByte))%1024+2]
+			body[4*v3+3]^=lookUpTable[(4*(v3+magicByte))%1024+3]
+			v3+=1
+			if v3>=v7:
+				break
+	return body
+'''
+    <source>ReplacingWithImplementationsThatRequireDataAlignmentExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79012474</metadata>
+    <sandboxPublished/>
+    <product>ecoder</product>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences.m</file>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences_da16.m</file>
+    <file timestamp="1521059291" component="coder">crl_table_simd.m</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.h</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.h</file>
+    <file timestamp="1521059291" component="coder">myRtwTargetInfoCRL2.txt</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd.m</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd_da16.m</file>
+    <file timestamp="1521059291" component="coder">sum_of_square_differences.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseStringInputWithGeneratedEmxArrayCodeExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81416943</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1542318673">replaceCats.m</file>
+    <file component="coder" timestamp="1542833411">main_replaceCats.c</file>
+    <file component="coder" timestamp="1542751806">main_replaceCats.h</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingDynamicMemoryAllocationForAnAtomsSimulationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83760050</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519761666" component="coder">run_atoms.m</file>
+    <file timestamp="1519761666" component="coder">run_atoms_main.c</file>
+  </demoitem>
+  <demoitem>
+    <source>AcceleratingSimulationOfBouncingBallsMFileExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex84123910</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1519746396">draw_balls.m</file>
+    <file component="coder" timestamp="1519746396">initialize_balls.m</file>
+    <file component="coder" timestamp="1519746396">is_outside.m</file>
+    <file component="coder" timestamp="1519746396">refresh_image.m</file>
+    <file component="coder" timestamp="1519746396">run_balls.m</file>
+    <file component="coder" timestamp="1519746396">setup_figure_window.m</file>
+    <file component="coder" timestamp="1519746396">step_function.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HelloWorldMLCoderExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85547058</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519743790" component="coder">hello_world.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NameStructTypeForHeterogeneousCellArrayExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85908367</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1465502529" component="coder">mycell.m</file>
+    <file timestamp="1465502529" component="coder">mycell1.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ReverberationUsingMATLABClassesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89191984</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519749676" component="coder">Delay.m</file>
+    <file timestamp="1519749676" component="coder">Reverb.m</file>
+    <file timestamp="1519749676" component="coder">coderdemo_reverb_diagram.png</file>
+    <file timestamp="1519749676" component="coder">do_reverb.m</file>
+    <file timestamp="1519749676" component="coder">get_prime.m</file>
+    <file timestamp="1519749676" component="coder">hhreflect.m</file>
+    <file timestamp="1519749676" component="coder">reverb_test.m</file>
+    <file timestamp="1519749676" component="coder">speech_dft.mat</file>
+  </demoitem>
+  <demoitem>
+'''
+def getMagic(header):
+	n=12
+	v2=0
+	v3=4
+	while 1:
+		v4=header[n]
+		n+=1
+		v2=v4|(v2<<8)
+		v3-=1
+		if not v3:
+			break
+	return v2
+'''
+    <source>ReplacingWithImplementationsThatRequireDataAlignmentExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79012474</metadata>
+    <sandboxPublished/>
+    <product>ecoder</product>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences.m</file>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences_da16.m</file>
+    <file timestamp="1521059291" component="coder">crl_table_simd.m</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.h</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.h</file>
+    <file timestamp="1521059291" component="coder">myRtwTargetInfoCRL2.txt</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd.m</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd_da16.m</file>
+    <file timestamp="1521059291" component="coder">sum_of_square_differences.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseStringInputWithGeneratedEmxArrayCodeExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81416943</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1542318673">replaceCats.m</file>
+    <file component="coder" timestamp="1542833411">main_replaceCats.c</file>
+    <file component="coder" timestamp="1542751806">main_replaceCats.h</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingDynamicMemoryAllocationForAnAtomsSimulationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83760050</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519761666" component="coder">run_atoms.m</file>
+    <file timestamp="1519761666" component="coder">run_atoms_main.c</file>
+  </demoitem>
+  <demoitem>
+    <source>AcceleratingSimulationOfBouncingBallsMFileExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex84123910</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1519746396">draw_balls.m</file>
+    <file component="coder" timestamp="1519746396">initialize_balls.m</file>
+    <file component="coder" timestamp="1519746396">is_outside.m</file>
+    <file component="coder" timestamp="1519746396">refresh_image.m</file>
+    <file component="coder" timestamp="1519746396">run_balls.m</file>
+    <file component="coder" timestamp="1519746396">setup_figure_window.m</file>
+    <file component="coder" timestamp="1519746396">step_function.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HelloWorldMLCoderExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85547058</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519743790" component="coder">hello_world.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NameStructTypeForHeterogeneousCellArrayExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85908367</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1465502529" component="coder">mycell.m</file>
+    <file timestamp="1465502529" component="coder">mycell1.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ReverberationUsingMATLABClassesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89191984</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519749676" component="coder">Delay.m</file>
+    <file timestamp="1519749676" component="coder">Reverb.m</file>
+    <file timestamp="1519749676" component="coder">coderdemo_reverb_diagram.png</file>
+    <file timestamp="1519749676" component="coder">do_reverb.m</file>
+    <file timestamp="1519749676" component="coder">get_prime.m</file>
+    <file timestamp="1519749676" component="coder">hhreflect.m</file>
+    <file timestamp="1519749676" component="coder">reverb_test.m</file>
+    <file timestamp="1519749676" component="coder">speech_dft.mat</file>
+  </demoitem>
+  <demoitem>
+'''
+def deSerialize(serializedFile,outfile):
+	n=28
+	length=len(serializedFile)
+	counter=0
+	nameTable=[]
+	totalEntries=0
+	for m in range(0,7):
+		totalEntries+=int.from_bytes(serializedFile[(4*m):4*(m+1)], byteorder='big')
+	if VERBOSE:
+		print(totalEntries)
+	while counter<totalEntries:
+		bytesNew=bytearray()
+		while serializedFile[n]!=0x00:
+			bytesNew.append(serializedFile[n])
+			n+=1
+		counter+=1
+		n+=1
+		nameTable.append(str(bytesNew,encoding='utf-8'))
+	if VERBOSE:
+		print(nameTable)
+		print(n)
+		print(counter)
+	while n<length:
+		if isNameRef(serializedFile[n]):
+			outfile.write(' '+nameTable[nameRefToIndex(serializedFile,n)])
+			n+=2
+		else:
+			outfile.write(translateOp(serializedFile[n]))
+			n+=1
+'''
+    <source>ReplacingWithImplementationsThatRequireDataAlignmentExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79012474</metadata>
+    <sandboxPublished/>
+    <product>ecoder</product>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences.m</file>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences_da16.m</file>
+    <file timestamp="1521059291" component="coder">crl_table_simd.m</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.h</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.h</file>
+    <file timestamp="1521059291" component="coder">myRtwTargetInfoCRL2.txt</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd.m</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd_da16.m</file>
+    <file timestamp="1521059291" component="coder">sum_of_square_differences.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseStringInputWithGeneratedEmxArrayCodeExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81416943</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1542318673">replaceCats.m</file>
+    <file component="coder" timestamp="1542833411">main_replaceCats.c</file>
+    <file component="coder" timestamp="1542751806">main_replaceCats.h</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingDynamicMemoryAllocationForAnAtomsSimulationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83760050</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519761666" component="coder">run_atoms.m</file>
+    <file timestamp="1519761666" component="coder">run_atoms_main.c</file>
+  </demoitem>
+  <demoitem>
+    <source>AcceleratingSimulationOfBouncingBallsMFileExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex84123910</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1519746396">draw_balls.m</file>
+    <file component="coder" timestamp="1519746396">initialize_balls.m</file>
+    <file component="coder" timestamp="1519746396">is_outside.m</file>
+    <file component="coder" timestamp="1519746396">refresh_image.m</file>
+    <file component="coder" timestamp="1519746396">run_balls.m</file>
+    <file component="coder" timestamp="1519746396">setup_figure_window.m</file>
+    <file component="coder" timestamp="1519746396">step_function.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HelloWorldMLCoderExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85547058</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519743790" component="coder">hello_world.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NameStructTypeForHeterogeneousCellArrayExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85908367</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1465502529" component="coder">mycell.m</file>
+    <file timestamp="1465502529" component="coder">mycell1.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ReverberationUsingMATLABClassesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89191984</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519749676" component="coder">Delay.m</file>
+    <file timestamp="1519749676" component="coder">Reverb.m</file>
+    <file timestamp="1519749676" component="coder">coderdemo_reverb_diagram.png</file>
+    <file timestamp="1519749676" component="coder">do_reverb.m</file>
+    <file timestamp="1519749676" component="coder">get_prime.m</file>
+    <file timestamp="1519749676" component="coder">hhreflect.m</file>
+    <file timestamp="1519749676" component="coder">reverb_test.m</file>
+    <file timestamp="1519749676" component="coder">speech_dft.mat</file>
+  </demoitem>
+  <demoitem>
+'''
+def isNameRef(byte):
+	return byte>>7
+	
+def nameRefToIndex(serializedFile,n):
+	if serializedFile[n]==0x80:
+		return serializedFile[n+1]-0x80
+	else:
+		return serializedFile[n+1]+serializedFile[n]-0x81+128
+'''
+    <source>ReplacingWithImplementationsThatRequireDataAlignmentExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79012474</metadata>
+    <sandboxPublished/>
+    <product>ecoder</product>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences.m</file>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences_da16.m</file>
+    <file timestamp="1521059291" component="coder">crl_table_simd.m</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.h</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.h</file>
+    <file timestamp="1521059291" component="coder">myRtwTargetInfoCRL2.txt</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd.m</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd_da16.m</file>
+    <file timestamp="1521059291" component="coder">sum_of_square_differences.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseStringInputWithGeneratedEmxArrayCodeExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81416943</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1542318673">replaceCats.m</file>
+    <file component="coder" timestamp="1542833411">main_replaceCats.c</file>
+    <file component="coder" timestamp="1542751806">main_replaceCats.h</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingDynamicMemoryAllocationForAnAtomsSimulationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83760050</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519761666" component="coder">run_atoms.m</file>
+    <file timestamp="1519761666" component="coder">run_atoms_main.c</file>
+  </demoitem>
+  <demoitem>
+    <source>AcceleratingSimulationOfBouncingBallsMFileExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex84123910</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1519746396">draw_balls.m</file>
+    <file component="coder" timestamp="1519746396">initialize_balls.m</file>
+    <file component="coder" timestamp="1519746396">is_outside.m</file>
+    <file component="coder" timestamp="1519746396">refresh_image.m</file>
+    <file component="coder" timestamp="1519746396">run_balls.m</file>
+    <file component="coder" timestamp="1519746396">setup_figure_window.m</file>
+    <file component="coder" timestamp="1519746396">step_function.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HelloWorldMLCoderExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85547058</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519743790" component="coder">hello_world.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NameStructTypeForHeterogeneousCellArrayExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85908367</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1465502529" component="coder">mycell.m</file>
+    <file timestamp="1465502529" component="coder">mycell1.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ReverberationUsingMATLABClassesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89191984</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519749676" component="coder">Delay.m</file>
+    <file timestamp="1519749676" component="coder">Reverb.m</file>
+    <file timestamp="1519749676" component="coder">coderdemo_reverb_diagram.png</file>
+    <file timestamp="1519749676" component="coder">do_reverb.m</file>
+    <file timestamp="1519749676" component="coder">get_prime.m</file>
+    <file timestamp="1519749676" component="coder">hhreflect.m</file>
+    <file timestamp="1519749676" component="coder">reverb_test.m</file>
+    <file timestamp="1519749676" component="coder">speech_dft.mat</file>
+  </demoitem>
+  <demoitem>
+'''	
+def translateOp(operatorByte):
+	if operatorByte in knownOperators:
+		return knownOperators[operatorByte]
+	print('Unrecognized operator {:d}'.format(operatorByte))
+	return 'UO{:d}'.format(operatorByte)
+
+if __name__ == '__main__':
+	parser=argparse.ArgumentParser(description='C')
+	parser.add_argument('infilename', metavar='infilename',help='input file name')
+	parser.add_argument('outfilename', metavar='outfilename',nargs='?',help='output file name')
+	parser.add_argument('--inplace','-m',action='store_true',help='output file name set to original filename-\'.\'+\'.\'')
+	parser.add_argument('--ser', metavar='ser',nargs='?',help='decrypted serialized file output, for debugging')
+	parser.add_argument('--verbose','-v',action='store_true',help='verbose')
+	parser.add_argument('--fmt','-f',action='store_true',help='call matlab_formatter (by affenwiesel, -vscode) to clean the output,don\'t use if line number accurate output is required.')
+	args = parser.parse_args()
+	if not args.outfilename:
+		if args.inplace:
+			splitpath=os.path.splitext(args.infilename)
+			outfilename=splitpath[0]+'.m'
+		else:
+			outfilename=args.infilename+'.m'
+	else:
+		outfilename=args.outfilename
+	if args.fmt:
+		import tempfile
+		realOutFileName=outfilename
+		outfilename=tempfile.mktemp()
+	VERBOSE=args.verbose
+	with open(args.infilename,'rb') as infile:
+		with open(outfilename,'w') as outfile:
+			serializedFile=getSerializedFile(infile)
+			if args.ser:
+				serfileHdl=open(args.ser,'wb')
+				serfileHdl.write(serializedFile)
+				serfileHdl.close()
+			deSerialize(serializedFile,outfile)
+	if args.fmt:
+		import matlab_formatter,sys
+		sys.stdout = open(realOutFileName, 'w')
+		formatter=matlab_formatter.Formatter(4)#indent = 4
+		formatter.formatFile(outfilename,1,None)
+'''
+<demos>
+  <demoitem>
+    <source>ReplaceCodeGeneratedFromMATLABCodeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex02238048</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+  </demoitem>
+  <demoitem>
+    <source>GenerateCppCodeWithAClassInterfaceExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex05614992</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1555961204">foog.m</file>
+    <file component="coder" timestamp="1555961204">foogBig.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UnitTestGeneratedCodeWithMATLABCoderExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex10047939</metadata>
+    <thumbnail>data/unit_test_output_addone.png</thumbnail>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1467836961" component="coder">addOne.m</file>
+    <file timestamp="1467290619" component="coder">run_unit_tests.m</file>
+    <file timestamp="1467290619" component="coder">TestAddOne.m</file>
+    <file component="coder" timestamp="1467154050">verify_addone_app.png</file>
+    <file component="coder" timestamp="1467154050">verify_addone_sil_app.png</file>
+    <file timestamp="1467211240" component="coder">unit_test_addone_err.png</file>
+    <file timestamp="1468509009" component="coder">unit_test_output_addone.png</file>
+  </demoitem>
+  <demoitem>
+    <source>PortfolioOptimizationBlackLittermanApproachExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex10671804</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1593552346" component="coder">hlblacklitterman.m</file>
+    <file timestamp="1593552346" component="coder">testMex.m</file>
+  </demoitem>
+  <demoitem>
+    <source>CalculateLinesOfCodeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex10882279</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1541603522">dijkstra.m</file>
+    <file component="coder" timestamp="1545176355">loc.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseEnumeratedTypesInLEDControlFunctionExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex17411986</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1442856496" component="coder">displayState.m</file>
+    <file timestamp="1458244841" component="coder">LEDcolor.m</file>
+    <file timestamp="1459528689" component="coder">sysMode.m</file>
+  </demoitem>
+  <demoitem>
+    <source>EdgeDetectionOnImagesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex18400584</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519750556" component="coder">hello.jpg</file>
+    <file timestamp="1519750556" component="coder">sobel.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ConfigureBuildFromWithinAFunctionExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex19774212</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1501276012" component="coder">foo.c</file>
+    <file timestamp="1501276012" component="coder">foo.h</file>
+    <file timestamp="1501276012" component="coder">myFn.m</file>
+    <file timestamp="1501276012" component="coder">mySubFn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>Build32bitDLLOn64bitWindowsRPlatformUsingMSVCToolchainExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex19875030</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1499970462" component="coder">myMatlabFunction.m</file>
+    <file timestamp="1499970462" component="coder">myMatlabFunction_main.c</file>
+    <file timestamp="1499970462" component="coder">myRtwTargetInfo.txt</file>
+    <file timestamp="1541538421" component="coder">my_msvc_32bit_tc.m</file>
+  </demoitem>
+  <demoitem>
+    <source>SobelEdgeDetectionInHalfPrecisionExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex20119261</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1579035805">sobelEdgeDetectionAlg.m</file>
+  </demoitem>
+  <demoitem>
+    <source>GenerateCppCodeWithNamespacesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex24289261</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1593198237">foo.m</file>
+    <dir component="coder" timestamp="1593198237">+mypackage</dir>
+  </demoitem>
+  <demoitem>
+    <source>PutMultipleEntryPointFunctionsInTheSameClassExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex29403099</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1555962947">countGlobal.m</file>
+    <file component="coder" timestamp="1555962947">countPersistent.m</file>
+  </demoitem>
+  <demoitem>
+    <source>AddingACustomToolchainExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29694751</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1519768736">coderrand.m</file>
+    <file component="coder" timestamp="1519768736">coderrand_main.c</file>
+    <file component="coder" timestamp="1576610704">intel_tc.m</file>
+    <file component="coder" timestamp="1519768736">myRtwTargetInfoCustom.txt</file>
+  </demoitem>
+  <demoitem>
+    <source>IntegrateTwoDifferentGeneratedCppCodeProjectsExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex32246629</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1559759986">getGravityConst.m</file>
+    <file component="coder" timestamp="1559942373">main_planetSim.cpp</file>
+    <file component="coder" timestamp="1559942373">planetSim.m</file>
+  </demoitem>
+  <demoitem>
+    <source>RunUnitTestOnCCodeUsingMATLABAndMATLABCoderExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex34970893</metadata>
+    <thumbnail>data/test_output_kalman_app.png</thumbnail>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1467293597" component="coder">callKalmanFilter.m</file>
+    <file timestamp="1467919347" component="coder">kalmanfilter.c</file>
+    <file timestamp="1467233542" component="coder">kalmanfilter.h</file>
+    <file timestamp="1467293597" component="coder">plot_kalman_filter_trajectory.m</file>
+    <file timestamp="1467233542" component="coder">position.mat</file>
+    <file timestamp="1467919347" component="coder">TestKalmanFilter.m</file>
+    <file timestamp="1467293597" component="coder">run_unit_tests_kalman.m</file>
+    <file timestamp="1467233542" component="coder">custom_code_kalman.png</file>
+    <file timestamp="1467233542" component="coder">verify_kalman_app.png</file>
+    <file timestamp="1467836682" component="coder">kalman_error_plot.png</file>
+    <file timestamp="1467836682" component="coder">kalman_error_plot_test_fails.png</file>
+    <file timestamp="1467919347" component="coder">test_output_kalman_app.png</file>
+'''
+'''
+    <source>ReplacingWithImplementationsThatRequireDataAlignmentExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79012474</metadata>
+    <sandboxPublished/>
+    <product>ecoder</product>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences.m</file>
+    <file timestamp="1521059291" component="coder">biased_sum_of_square_differences_da16.m</file>
+    <file timestamp="1521059291" component="coder">crl_table_simd.m</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse2.h</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.c</file>
+    <file timestamp="1521059291" component="coder">lib_sse4.h</file>
+    <file timestamp="1521059291" component="coder">myRtwTargetInfoCRL2.txt</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd.m</file>
+    <file timestamp="1521059291" component="coder">run_biased_ssd_da16.m</file>
+    <file timestamp="1521059291" component="coder">sum_of_square_differences.m</file>
+  </demoitem>
+  <demoitem>
+    <source>UseStringInputWithGeneratedEmxArrayCodeExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81416943</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1542318673">replaceCats.m</file>
+    <file component="coder" timestamp="1542833411">main_replaceCats.c</file>
+    <file component="coder" timestamp="1542751806">main_replaceCats.h</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingDynamicMemoryAllocationForAnAtomsSimulationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83760050</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519761666" component="coder">run_atoms.m</file>
+    <file timestamp="1519761666" component="coder">run_atoms_main.c</file>
+  </demoitem>
+  <demoitem>
+    <source>AcceleratingSimulationOfBouncingBallsMFileExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex84123910</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file component="coder" timestamp="1519746396">draw_balls.m</file>
+    <file component="coder" timestamp="1519746396">initialize_balls.m</file>
+    <file component="coder" timestamp="1519746396">is_outside.m</file>
+    <file component="coder" timestamp="1519746396">refresh_image.m</file>
+    <file component="coder" timestamp="1519746396">run_balls.m</file>
+    <file component="coder" timestamp="1519746396">setup_figure_window.m</file>
+    <file component="coder" timestamp="1519746396">step_function.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HelloWorldMLCoderExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85547058</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519743790" component="coder">hello_world.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NameStructTypeForHeterogeneousCellArrayExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85908367</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1465502529" component="coder">mycell.m</file>
+    <file timestamp="1465502529" component="coder">mycell1.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ReverberationUsingMATLABClassesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89191984</metadata>
+    <product>matlab</product>
+    <product>matlabcoder</product>
+    <file timestamp="1519749676" component="coder">Delay.m</file>
+    <file timestamp="1519749676" component="coder">Reverb.m</file>
+    <file timestamp="1519749676" component="coder">coderdemo_reverb_diagram.png</file>
+    <file timestamp="1519749676" component="coder">do_reverb.m</file>
+    <file timestamp="1519749676" component="coder">get_prime.m</file>
+    <file timestamp="1519749676" component="coder">hhreflect.m</file>
+    <file timestamp="1519749676" component="coder">reverb_test.m</file>
+    <file timestamp="1519749676" component="coder">speech_dft.mat</file>
+  </demoitem>
+  <demoitem>
+'''
